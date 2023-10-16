@@ -1,0 +1,29 @@
+.header {
+        background: linear-gradient(300deg, #4bcdf8, #fce3e7, #fd0202);
+        background-size: 180% 180%;
+        animation: gradient-animation 18s ease infinite;
+      }
+      
+      @keyframes gradient-animation {
+        0% {
+          background-position: 0% 50%;
+        }
+        50% {
+          background-position: 100% 50%;
+        }
+        100% {
+          background-position: 0% 50%;
+        }    
+}
+
+.nav-link {
+    color: black;
+}
+
+.active.list-group-item {
+    font-size: 18pt;
+}
+
+.curr {
+    background-color: rgb(210, 220, 248);
+}
